@@ -10,6 +10,9 @@
 
 function ticketPrice(age, isStudent) {
   // your code here
+  if (age < 6) return 0;
+  if (age >= 60 || isStudent) return 1;
+  return 2;
 }
 
 // ----- Checks (do not edit) -----
