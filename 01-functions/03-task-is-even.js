@@ -8,6 +8,8 @@
 
 function isEven(n) {
   // your code here
+  return n % 2 === 0;
+
 }
 
 // ----- Checks (do not edit) -----
