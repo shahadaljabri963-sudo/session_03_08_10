@@ -9,10 +9,14 @@
 
 function area(width, height) {
   // your code here
+  return width * height;
+  
 }
 
 function perimeter(width, height) {
   // your code here
+  return 2 * (width + height);
+
 }
 
 // ----- Checks (do not edit) -----
